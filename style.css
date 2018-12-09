@@ -1,0 +1,253 @@
+
+* {box-sizing: border-box;}
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #c7c7c7;
+}
+.container {
+	max-width: 1000px;
+	margin: auto;
+    border-color: #1abc9c;
+    display: flex;
+}
+.row {
+	border-color: #34495e;
+    overflow: auto;
+    display: flex;
+}
+.padding-bars {
+    padding-left: 45px;
+    font-size: 15px;
+}
+.sidebar-navbar {
+    padding: 10px;
+    font-family: 'Indie Flower', cursive;
+    font-size: 20px;
+    height: 50px;
+}
+.sidebar-button {
+    height: 50px;
+    border-left: 3px solid transparent;
+}
+.sidebar-button:hover {
+    background-color: grey;
+    border-left: 3px solid #F58220;
+   
+}
+.sidebar {
+    border: 2px solid yellow; 
+    height: 100vh;
+    background-color: black;
+}
+.sidebar-text {
+    font-size: 15px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+}
+.img-icon-sidebar {
+    width: 15px;
+    height: 15px;
+}
+.menu-item {
+    padding: 10px;
+    padding: 15px;
+    margin-left: 3px;
+}
+.content-boxes-wrapper {
+    background-color: #F3F3F3;
+    margin: 40px 0 0 0;
+    display: flex;
+    flex-direction: column;
+    height: 960px;
+    position: relative; 
+}
+.content {
+    position: relative;
+}
+.content-box-1 {
+    background-color: #fff;
+    height: 450px; 
+    width: 800px;
+    margin: 15px;
+  
+}
+.date-boxes-wrapper {
+    display: flex;
+    justify-content: center;
+}
+.date-box-1 {
+    border: 2px solid #F3F3F3;
+    padding: 10px; 
+    padding-right: 60px;
+}
+.date-box-2 {
+    border: 2px solid #f3f3f3; 
+    padding: 10px;
+    padding-right: 60px;
+    position: relative;
+}
+.img-icon-cal {
+    color: black;
+    z-index: 10000;
+    width: 16px;
+    height: 16px;
+    position: absolute; 
+    top: 9px; 
+    right: 9px;
+}
+.content-box-margin-fix:last-child {
+    margin: 0 15px 15px 15px; 
+}
+.content-separator-line {
+    border-bottom: 2px solid grey;
+    display: flex;
+}
+
+.content-top-text {
+    padding: 10px;
+}
+
+.linksWrapper {
+    margin-left: 20%; 
+    margin-right: 20%;
+}
+.no-style-links {
+    text-decoration: none;
+}
+.separator-line-2 {
+    height: 30%;
+}
+.separator-line-3 {
+    height: 60%;
+}
+.navbar {
+    position: absolute;
+    top: 0; 
+    left: 0; 
+    height: 40px; 
+    width: 833px;
+    display: flex;
+    justify-content: flex-end;
+}
+.cash {
+    border-right: 1px solid #F3F3F3;
+    border-left: 1px solid #F3F3F3;
+    z-index: 10000;
+    width: 15%;
+    position: relative;
+}
+.bell {
+    border-right: 1px solid #F3F3F3;
+    z-index: 10000;
+    width: 7%;
+    position: relative;
+}
+.bell-icon {
+    height: 25px;
+    width: 25px;
+    top: 7px;
+    left: 16px;
+    position: absolute; 
+}
+.little-orange-dot {
+    border-radius: 50%; 
+    background-color: orange;
+    width: 8px;
+    height: 8px; 
+    position: absolute; 
+    z-index: 10000;
+    top: 6px;
+    right: 19px;
+}
+.profile {
+    border-right: 1px solid #F3F3F3;
+    z-index: 10000;
+    width: 15%;
+    position: relative;
+}
+.profile-icon {
+    height: 19px;
+    width: 19px;
+    top: 10px;
+    left: 6px;
+    position: absolute; 
+}
+.profile-text {
+    font-size: 10px; 
+    top: 13px;
+    left: 32px;
+    position: absolute;
+}
+.exit {
+    border-right: 1px solid #F3F3F3;
+    z-index: 10000;
+    width: 7%;
+    position: relative;
+}
+.quit-icon {
+    height: 19px;
+    width: 19px;
+    top: 10px;
+    left: 22px;
+    position: absolute; 
+}
+.icon-wallet {
+    fill: grey; 
+    position: absolute;
+    left: 7px;
+    top: 10px;
+}
+
+.nav-cash-icon {
+    position: absolute;
+    display: flex; 
+    left: 5px;
+    top: 7px;
+}
+.arrow-down-icon {
+    font-size: 15px;
+}
+.navbar-text {
+    font-size: 15px;
+    padding-top: 5px;
+    padding-left: 4px;
+    padding-right: 5px;
+}
+.arrow-down-icon {
+    height: 17px;
+    width: 17px;
+    padding-top: 7px;
+}
+.icon-plus {
+    width: 10px;
+    height: 10px;
+    margin: 0 auto;
+}
+/* buttons */
+.button-orange {
+    background-color: orange; 
+    border-radius: 5%; 
+    padding: 10px;
+    color: #fff;
+    display: inline-block;
+    justify-content: center;
+}
+
+.text-align-center {
+    text-align: center; 
+}
+[class*="col"] {
+	border-color: #f1c40f;
+}
+.col-1 {flex: 8.334%}
+.col-2 {flex: 16.667%}
+.col-3 {flex: 25%}
+.col-4 {flex: 33.334%}
+.col-5 {flex: 41.667%}
+.col-6 {flex: 50%}
+.col-7 {flex: 58.334%}
+.col-8 {flex: 66.667%}
+.col-9 {flex: 75%}
+.col-10 {flex: 83.334%}
+.col-11 {flex: 91.667%}
+.col-12 {flex: 100%}

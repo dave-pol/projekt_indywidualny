@@ -1,0 +1,41 @@
+
+* {box-sizing: border-box;}
+.container {
+	max-width: 1000px;
+	margin: auto;
+    border-color: #1abc9c;
+    display: flex;
+}
+.row {
+	border-color: #34495e;
+    overflow: auto;
+    display: flex;
+}
+.sidebar {
+    border: 2px solid yellow; 
+    height: 100vh;
+}
+.content-boxes-wrapper {
+    background-color: #F3F3F3;
+    margin: 40px 0px 0px 0px;
+}
+.navbar {
+    border: 2px solid green;
+    width: 40px;
+}
+[class*="col"] {
+	border-color: #f1c40f;
+	padding: 5px;
+}
+.col-1 {flex: 8.334%}
+.col-2 {flex: 16.667%}
+.col-3 {flex: 25%}
+.col-4 {flex: 33.334%}
+.col-5 {flex: 41.667%}
+.col-6 {flex: 50%}
+.col-7 {flex: 58.334%}
+.col-8 {flex: 66.667%}
+.col-9 {flex: 75%}
+.col-10 {flex: 83.334%}
+.col-11 {flex: 91.667%}
+.col-12 {flex: 100%}
