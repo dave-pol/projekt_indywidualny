@@ -231,6 +231,7 @@ body {
     color: #fff;
     display: inline-block;
     justify-content: center;
+    border: none;
 }
 
 .text-align-center {
