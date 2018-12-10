@@ -235,31 +235,14 @@ body {
 }
 
 /* boxy z napisami i numerami */
-.four-counters-wrapper {
-    margin: 30px 130px;
-    display: flex;
+.container-2 {
+    max-width: 500px;
+    margin: 0 auto;
+    padding-top: 40px;
 }
-.box-counter-1 {
-    border-bottom: 1px solid gray; 
-    width: 300px;
-    padding: 60px;
+.row-padding-boxes {
+    padding-top: 40px;
 }
-.box-counter-2 {
-    border-bottom: 1px solid gray; 
-    width: 300px;
-    padding: 60px;
-}
-.box-counter-3 {
-    border-bottom: 1px solid gray; 
-    width: 300px;
-    padding: 60px;
-}
-.box-counter-4 {
-    border-bottom: 1px solid gray; 
-    width: 300px;
-    padding: 60px;
-}
-
 /* buttons */
 .button-orange {
     background-color: orange; 
