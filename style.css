@@ -239,6 +239,7 @@ body {
     max-width: 500px;
     margin: 0 auto;
     padding-top: 40px;
+    font-size: 12px;
 }
 .row-padding-boxes {
     padding-top: 40px;
@@ -254,6 +255,33 @@ body {
 .shady-number {
     color: #a9a9a9;
 }
+
+/* LINKS */
+
+.padding-normal {
+    padding: 15px;
+}
+
+.border-row-btm-top {
+    border-top: 1px solid gray; 
+    border-bottom: 1px solid gray; 
+}
+
+.hover-efct:hover {
+    background-color: #a9a9a9;
+}
+
+.margin-for-icons {
+    margin-right: 50px;
+}
+
+.links-orange {
+    margin-right: 12px;
+    padding-top: 4px;
+}
+.icon-trash {
+    
+}
 /* buttons */
 .button-orange {
     background-color: orange; 
@@ -265,6 +293,9 @@ body {
     border: none;
 }
 
+.padding-15-button-orange {
+    margin: 15px 15px 15px 15px;
+}
 .text-align-center {
     text-align: center; 
 }
