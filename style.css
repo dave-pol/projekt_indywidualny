@@ -243,6 +243,17 @@ body {
 .row-padding-boxes {
     padding-top: 40px;
 }
+.box {
+    border-bottom: 1px solid gray; 
+    margin: 15px;
+}
+.flex-for-box {
+    display: flex; 
+    justify-content: space-between;
+}
+.shady-number {
+    color: #a9a9a9;
+}
 /* buttons */
 .button-orange {
     background-color: orange; 
