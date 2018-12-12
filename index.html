@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
         crossorigin="anonymous">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.3/Chart.min.js"></script>
+    
 </head>
 
 <body>
@@ -100,6 +101,33 @@
                         </div>
                         Eearnings chart
                     </div>
+
+                    <p>TRZEBA DODAĆ W HEAD JESZCZE INNE LINKI - NP. DO BOOTSTRAP! ŻEBY JAKOŚ TEN CHART OSTYLOWAĆ.</p>
+                    <div class="container">
+                        <canvas id="myChart"></canvas>
+                    </div>
+                    <script>
+                        let myChart = document.getElementById('myChart').getContext('2d');
+                
+                        let massPopChart = new Chart(myChart, {
+                            type:'bar', //bar, horizontalBar, pie, line, doughnut, radar, polarArea
+                            data:{
+                                labels:['Bosten', 'Worcester', 'Springfield', 'Lowell', 'Cambridge', 'New Bedford'],
+                                datasets:[{
+                                    label:'Population',
+                                    data: [
+                                        617594,
+                                        181045,
+                                        153060,
+                                        106519,
+                                        105162,
+                                        95072
+                                    ]
+                                }]
+                            },
+                            options:{}
+                        }); 
+                    </script>
                     <div class="content-separator-line separator-line-2"></div>
 
                     <div class="content-separator-line separator-line-3"></div>
