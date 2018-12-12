@@ -240,6 +240,12 @@ body {
 [class*="col"] {
 	border-color: #f1c40f;
 }
+.container-1 {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 40px;
+}
+
 .col-1 {flex: 8.334%}
 .col-2 {flex: 16.667%}
 .col-3 {flex: 25%}
