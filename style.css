@@ -332,6 +332,21 @@ body {
     padding-right: 17px; 
 }
 
+.your-manager-wrapper {
+    position: relative;
+}
+
+.little-orange-dot-mp {
+    border-radius: 50%; 
+    background-color: orange;
+    width: 8px;
+    height: 8px; 
+    position: absolute; 
+    z-index: 10000;
+    top: 35px;
+    right: 90px;
+}
+
 .col-1 {flex: 8.334%}
 .col-2 {flex: 16.667%}
 .col-3 {flex: 25%}
