@@ -15,18 +15,25 @@ body {
     display: flex;
 }
 .padding-bars {
-    padding-left: 35px;
-    font-size: 15px;
+    padding-right: 3px;
+    padding-top: 4px;
+    font-size: 13px;
 }
 .sidebar-navbar {
-    padding: 10px;
+    padding-top: 5px;
+    padding-left: 3px;
+    margin-top: 10px; 
     font-family: 'Indie Flower', cursive;
     font-size: 20px;
     height: 50px;
+    display: flex;
+    justify-content: space-between;
+
 }
 .sidebar-button {
     height: 50px;
     border-left: 3px solid transparent;
+
 }
 .sidebar-button:hover {
     background-color: grey;
@@ -34,20 +41,20 @@ body {
    
 }
 .sidebar {
-    border: 2px solid yellow; 
     background-color: black;
 }
 .sidebar-text {
-    font-size: 15px;
-    padding-bottom: 5px;
-    padding-left: 15px;
+    font-size: 14px;
+    padding-left: 10px;
+    align-items: center;
 }
 .img-icon-sidebar {
     width: 15px;
     height: 15px;
+    padding-top: 4px;
 }
 .sidebar-break-line {
-    border-bottom: solid 2px #696966; 
+    border-bottom: solid 1px rgba(169,169,169,0.4); 
 }
 .manager-photo {
     width: 40px;
@@ -55,8 +62,8 @@ body {
     border-radius: 50%;
 }
 .menu-item {
+    margin-left: 4px;
     padding-top: 15px;
-    margin-left: 7px;
 }
 .content-boxes-wrapper {
     background-color: #F3F3F3;
@@ -314,6 +321,15 @@ body {
     max-width: 500px;
     margin: 0 auto;
     padding: 40px;
+}
+
+/* section manager */
+
+.mp-text {
+    float: right; 
+    font-size: 12px;
+    padding-top: 12px;
+    padding-right: 17px; 
 }
 
 .col-1 {flex: 8.334%}
