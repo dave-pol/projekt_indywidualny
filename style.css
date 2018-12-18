@@ -322,6 +322,9 @@ body {
     padding: 10px 13px;
     color: rgba(169,169,169,0.8);
   }
+  .button-110 {
+      width: 115px;
+  }
   .orange-dot {
     border-radius: 50%;
     background-color: orange;
