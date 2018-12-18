@@ -282,7 +282,7 @@ body {
 
 .flex-links {
     display: none;
-    right: 55px;
+    right: 50px;
 }
 
 .hover-efct:hover > .flex-links {
@@ -292,9 +292,11 @@ body {
 }
 
 .hover-efct:hover {
-    background-color: #a9a9a9;
+    background-color: rgba(169, 169, 169, 0.3);
 }
-
+.hover-efct {
+    position: relative;
+}
 
 .margin-for-icons {
     margin-right: 50px;
