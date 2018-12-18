@@ -42,6 +42,8 @@ body {
 }
 .sidebar {
     background-color: black;
+    width: 135px;
+    min-width: 130px;
 }
 .sidebar-text {
     font-size: 14px;
@@ -184,7 +186,7 @@ body {
 .profile {
     border-right: 1px solid #F3F3F3;
     z-index: 10000;
-    width: 10%;
+    width: 150px;
     position: relative;
 }
 .profile-icon {
@@ -203,7 +205,7 @@ body {
 .exit {
     border-right: 1px solid #F3F3F3;
     z-index: 10000;
-    width: 3.4%;
+    width: 50px;
     position: relative;
 }
 .quit-icon {
