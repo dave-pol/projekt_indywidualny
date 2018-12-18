@@ -153,13 +153,14 @@ body {
     border-right: 1px solid #F3F3F3;
     border-left: 1px solid #F3F3F3;
     z-index: 10000;
-    width: 10%;
+    width: 150px;
     position: relative;
+    
 }
 .bell {
     border-right: 1px solid #F3F3F3;
     z-index: 10000;
-    width: 3.4%;
+    width: 50px;
     position: relative;
 }
 .bell-icon {
@@ -168,6 +169,7 @@ body {
     top: 7px;
     left: 16px;
     position: absolute; 
+    
 }
 .little-orange-dot {
     border-radius: 50%; 
@@ -177,7 +179,7 @@ body {
     position: absolute; 
     z-index: 10000;
     top: 6px;
-    right: 19px;
+    right: 10px;
 }
 .profile {
     border-right: 1px solid #F3F3F3;
@@ -219,10 +221,16 @@ body {
 }
 
 .nav-cash-icon {
-    position: absolute;
     display: flex; 
-    left: 5px;
-    top: 7px;
+    justify-content: center;
+    padding-top: 8px; 
+    
+}
+
+.nav-bell-icon {
+    display: flex; 
+    justify-content: center;
+    padding-top: 8px; 
 }
 .arrow-down-icon {
     font-size: 15px;
