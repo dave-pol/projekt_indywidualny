@@ -265,6 +265,38 @@ body {
         color: #a9a9a9;
     }
     /* SEKCJA TRZY BUTTONY/IKONY */
+    .container-3 {
+        max-width: 400px;
+        margin: 0 auto;
+    }
+    .button-110 {
+        width: 115px;
+    }
+    .orange-dot {
+        border-radius: 50%;
+        background-color: orange;
+        z-index: 1000;
+        width: 15px;
+        height: 15px; 
+        display: inline-block;
+        margin-right: 12px;
+    }
+      .green-dot {
+        border-radius: 50%;
+        background-color: green;
+        z-index: 1000;
+        width: 15px;
+        height: 15px; 
+        display: inline-block;
+        margin-right: 12px;
+      }
+      .button-text {
+        padding: 0px;
+        text-align: center;
+        display: inline-block;
+      }   
+/* CHART.JS SCRYPT */
+
 /* 2ND CONTENT BOX */
     /* 2ND CONTENT SECTION HEADER */
     /* 2ND CONTENT SECTION - CONTENT */
@@ -364,11 +396,6 @@ body {
 }
 
 /* sekcja 3 buttony */
-.container-3 {
-    max-width: 400px;
-    margin: 0 auto;
-    
-}
 .button {
     border-radius: 5px;
     text-shadow: 0;
@@ -378,32 +405,8 @@ body {
     padding: 10px 13px;
     color: rgba(169,169,169,0.8);
   }
-  .button-110 {
-      width: 115px;
-  }
-  .orange-dot {
-    border-radius: 50%;
-    background-color: orange;
-    z-index: 1000;
-    width: 15px;
-    height: 15px; 
-    display: inline-block;
-    margin-right: 12px;
-  }
-  .green-dot {
-    border-radius: 50%;
-    background-color: green;
-    z-index: 1000;
-    width: 15px;
-    height: 15px; 
-    display: inline-block;
-    margin-right: 12px;
-  }
-  .button-text {
-    padding: 0px;
-    text-align: center;
-    display: inline-block;
-  }
+
+ 
 
 
 /* buttons */
