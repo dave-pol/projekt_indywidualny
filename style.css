@@ -465,3 +465,37 @@ body {
 .col-10n {width: 83.334%}
 .col-11n {width: 91.667%}
 .col-12n {width: 100%}
+
+@media screen and (max-width: 600px) {
+    body {
+      background-color: olive;
+    }
+    .sidebar {
+        display: none;
+    }
+    .navbar {
+        display: none;
+    }
+    .content-boxes-wrapper {
+        margin: 0;
+    }
+    .display-medium {
+        overflow: none;
+        display: inline;
+    }
+    .container-2 {
+        width: 80%;
+    }
+    .col-m-1n {width: 8.334%}
+    .col-m-2n {width: 16.667%}
+    .col-m-3n {width: 25%}
+    .col-m-4n {width: 33.334%}
+    .col-m-5n {width: 41.667%}
+    .col-m-6n {width: 50%}
+    .col-m-7n {width: 58.334%}
+    .col-m-8n {width: 66.667%}
+    .col-m-9n {width: 75%}
+    .col-m-10n {width: 83.334%}
+    .col-m-11n {width: 91.667%}
+    .col-m-12n {width: 100%}
+  }
