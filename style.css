@@ -486,6 +486,15 @@ body {
     .container-2 {
         width: 80%;
     }
+    .navbar-bottom {
+        position: absolute;
+        bottom: 0; 
+        left: 0; 
+        height: 40px; 
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+    }
     .col-m-1n {width: 8.334%}
     .col-m-2n {width: 16.667%}
     .col-m-3n {width: 25%}
