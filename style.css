@@ -96,8 +96,8 @@ body {
 /*****  NAVBAR  *****/
 .navbar {
     position: absolute;
-    top: 0; 
     left: 0; 
+    top: 0;
     height: 40px; 
     width: 90vw;
     display: flex;
@@ -184,6 +184,12 @@ body {
     position: absolute;
     left: 7px;
     top: 10px;
+}
+.navbar-text-hidden-exit {
+    visibility: hidden;
+}
+.navbar-text-hidden-bell {
+    visibility: hidden;
 }
 
 /*****  SEKCJE CONTENT - OBYDWIE SEKCJE ******/
@@ -474,10 +480,14 @@ body {
         display: none;
     }
     .navbar {
-        display: none;
+        position: absolute; 
+        left: 0;
+        bottom: 0;
+        top: initial;
     }
     .content-boxes-wrapper {
         margin: 0;
+        margin-bottom: 40px;
     }
     .display-medium {
         overflow: none;
@@ -494,6 +504,40 @@ body {
         width: 100%;
         display: flex;
         justify-content: flex-end;
+    }
+    .cash {
+        width: 100%; 
+        min-width: 70px;
+    }
+    .bell {
+        width: 100%;
+        min-width: 70px;
+    }
+    .little-orange-dot {
+        visibility: hidden;
+    }
+    .profile {
+        width: 100%;
+        min-width: 70px;
+    }
+    .exit {
+        width: 100%;
+        min-width: 70px;
+    }
+    .navbar-text-hidden-exit {
+        visibility: initial;
+        position: absolute; 
+        top: 10px;
+        right: 30px;
+        display: flex;
+    }
+    .navbar-text-hidden-bell {
+        visibility: initial;
+        position: absolute; 
+        top: 10px;
+        right: 20px;
+        display: flex;
+        color: orange;
     }
     .col-m-1n {width: 8.334%}
     .col-m-2n {width: 16.667%}
