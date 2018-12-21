@@ -416,10 +416,6 @@ body {
     padding: 10px 13px;
     color: rgba(169,169,169,0.8);
   }
-
- 
-
-
 /* buttons */
 .button-orange {
     background-color: orange; 
@@ -538,6 +534,15 @@ body {
         right: 20px;
         display: flex;
         color: orange;
+    }
+    .flex-links {
+        right: 5px;
+    }
+    .links-orange {
+        margin-right: 2px; 
+    }
+    .name-to-link-hidden {
+        display: none;
     }
     .col-m-1n {width: 8.334%}
     .col-m-2n {width: 16.667%}
