@@ -111,37 +111,37 @@ body {
     display: flex;
     justify-content: flex-end;
 }
-.cash {
+.navbar-cash {
     border-right: 1px solid #F3F3F3;
     border-left: 1px solid #F3F3F3;
     z-index: 10000;
     width: 150px;
     position: relative;  
 }
-.bell {
+.navbar-bell {
     border-right: 1px solid #F3F3F3;
     z-index: 10000;
     width: 50px;
     position: relative;
 }
-.bell-icon {
+.navbar-bell-icon-inner {
     height: 25px;
     width: 25px;
     top: 7px;
     left: 16px;
     position: absolute;    
 }
-.nav-cash-icon {
+.navbar-cash-icon {
     display: flex; 
     justify-content: center;
     padding-top: 8px;  
 }
-.arrow-down-icon {
+.navbar-arrow-down-icon {
     height: 17px;
     width: 17px;
     padding-top: 7px;
 }
-.nav-bell-icon {
+.navbar-bell-icon-wrapper {
     display: flex; 
     justify-content: center;
     padding-top: 8px; 
@@ -158,39 +158,39 @@ body {
     right: 10px;
     margin: 2px;
 }
-.profile {
+.navbar-profile {
     border-right: 1px solid #F3F3F3;
     z-index: 10000;
     width: 150px;
     position: relative;
 }
-.profile-icon {
+.navbar-profile-icon {
     height: 19px;
     width: 19px;
     top: 10px;
     left: 6px;
     position: absolute; 
 }
-.profile-text {
+.navbar-profile-text {
     font-size: 10px; 
     top: 13px;
     left: 32px;
     position: absolute;
 }
-.exit {
+.navbar-exit {
     border-right: 1px solid #F3F3F3;
     z-index: 10000;
     width: 50px;
     position: relative;
 }
-.quit-icon {
+.navbar-quit-icon {
     height: 19px;
     width: 19px;
     top: 10px;
     left: 22px;
     position: absolute; 
 }
-.icon-wallet {
+.navbar-icon-wallet {
     fill: grey; 
     position: absolute;
     left: 7px;
@@ -208,6 +208,7 @@ body {
     padding-left: 4px;
     padding-right: 5px;
 }
+
 
 /*****  SEKCJE CONTENT - OBYDWIE SEKCJE ******/
 
@@ -227,7 +228,9 @@ body {
    
 }
 /* GÓRNA SEKCJA CONTENT */
-
+.navbar-padding-bars {
+    display: none;
+}
 .content-separator-line {
     border-bottom: 2px solid grey;
     display: flex;
@@ -431,6 +434,12 @@ body {
     .sidebar {
         display: none;
     }
+    .navbar-padding-bars {
+        display: inline;
+        position: absolute; 
+        top: 25px;
+        right: 25px;
+    }
     .navbar {
         position: absolute; 
         left: 0;
@@ -457,22 +466,22 @@ body {
         display: flex;
         justify-content: flex-end;
     }
-    .cash {
+    .navbar-cash {
         width: 100%; 
         min-width: 70px;
     }
-    .bell {
+    .navbar-bell {
         width: 100%;
         min-width: 70px;
     }
     .little-orange-dot {
         visibility: hidden;
     }
-    .profile {
+    .navbar-profile {
         width: 100%;
         min-width: 70px;
     }
-    .exit {
+    .navbar-exit {
         width: 100%;
         min-width: 70px;
     }
